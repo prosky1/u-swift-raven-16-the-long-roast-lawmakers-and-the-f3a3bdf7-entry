@@ -1,7 +1,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const TEXT =
-  "The committee spent a year drafting AI regulation, then tabled the bill because nobody could convert it to PDF.";
+  "The committee asked an AI to draft the regulation, and the AI sent back a perfect PDF, which the chairman has double-clicked 47 times.";
 
 // Runtime guard: the gate requires 1-320 UTF-8 characters, one sentence,
 // nothing but whitespace-free text. Fail loudly instead of writing junk.
